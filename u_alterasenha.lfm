@@ -1,0 +1,74 @@
+object FormAlteraSenha: TFormAlteraSenha
+  Left = 745
+  Height = 204
+  Top = 352
+  Width = 207
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Alterar Senha'
+  ClientHeight = 204
+  ClientWidth = 207
+  OnClose = FormClose
+  Position = poMainFormCenter
+  LCLVersion = '2.0.2.0'
+  object EditSenhaAtual: TEdit
+    Left = 25
+    Height = 23
+    Top = 25
+    Width = 160
+    EchoMode = emPassword
+    PasswordChar = '*'
+    TabOrder = 0
+  end
+  object EditSenhaNova: TEdit
+    Left = 25
+    Height = 23
+    Top = 73
+    Width = 160
+    EchoMode = emPassword
+    PasswordChar = '*'
+    TabOrder = 1
+  end
+  object EditSenhaNovaConf: TEdit
+    Left = 25
+    Height = 23
+    Top = 121
+    Width = 160
+    EchoMode = emPassword
+    PasswordChar = '*'
+    TabOrder = 2
+  end
+  object ButtonAlterarSenha: TButton
+    Left = 25
+    Height = 25
+    Top = 161
+    Width = 160
+    Caption = 'Alterar'
+    OnClick = ButtonAlterarSenhaClick
+    TabOrder = 3
+  end
+  object Label1: TLabel
+    Left = 25
+    Height = 15
+    Top = 8
+    Width = 63
+    Caption = 'Senha Atual'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 25
+    Height = 15
+    Top = 56
+    Width = 63
+    Caption = 'Nova Senha'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 25
+    Height = 15
+    Top = 104
+    Width = 99
+    Caption = 'Repita Nova Senha'
+    ParentColor = False
+  end
+end

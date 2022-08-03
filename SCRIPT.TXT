@@ -1,0 +1,84 @@
+CREATE TABLE TB_USUARIOS ( cLOGIN_US VARCHAR(50)  PRIMARY KEY NOT NULL
+                         , cSENHA_US VARCHAR(50)  NOT NULL
+                         , cNOME_US  VARCHAR(100) NOT NULL
+                         , cTIPO_US  VARCHAR(1)   NOT NULL
+                         );
+
+CREATE TABLE TB_CFG_SISTEMA ( cCNPJ_CFG          VARCHAR(14)  NOT NULL
+                            , cIE_CFG            VARCHAR(20)
+                            , cRAZAO_SOCIAL_CFG  VARCHAR(200) NOT NULL
+                            , cNOME_FANTASIA_CFG VARCHAR(200) NOT NULL
+                            , cENDERECO_CFG      VARCHAR(200) NOT NULL
+                            , cNUMERO_CFG        VARCHAR(50)  NOT NULL
+                            , cCOMPLEMENTO_CFG   VARCHAR(50)
+                            , cBAIRRO_CFG        VARCHAR(200) NOT NULL
+                            , cCIDADE_CFG        VARCHAR(100) NOT NULL
+                            , cUF_CFG            VARCHAR(2)   NOT NULL
+                            , cCEP_CFG           VARCHAR(8)   NOT NULL
+                            , cLOGO_CFG          VARCHAR(100)
+                            , cTELEFONE_CL       VARCHAR(10)
+                            , cCELULAR_CL        VARCHAR(11)
+                            , cEMAIL_CL          VARCHAR(200)
+                            , cSITE_CL           VARCHAR(200)          
+                            );
+
+CREATE TABLE TB_CLIENTES ( cCPF_CL         VARCHAR(11) PRIMARY KEY NOT NULL
+                         , cNOME_CL        VARCHAR(200) NOT NULL
+                         , cENDERECO_CL    VARCHAR(200)
+                         , cNUMERO_CL      VARCHAR(50)
+                         , cCOMPLEMENTO_CL VARCHAR(50)
+                         , cBAIRRO_CL      VARCHAR(200)
+                         , cCIDADE_CL      VARCHAR(100)
+                         , cUF_CL          VARCHAR(2)
+                         , cCEP_CL         VARCHAR(8)
+                         , cTELEFONE_CL    VARCHAR(10)
+                         , cCELULAR_CL     VARCHAR(11)
+                         , cEMAIL_CL       VARCHAR(200)
+                         , cUSUARIO_CL     VARCHAR(50) NOT NULL
+                         , cDATA_CL        DATETIME NOT NULL
+                         , FOREIGN KEY (cUSUARIO_CL) REFERENCES TB_USUARIOS(cLOGIN_US)
+                         );
+
+CREATE TABLE TB_OS ( iCODIGO_OS        INTEGER PRIMARY KEY AUTOINCREMENT
+                   , cCPF_OS           VARCHAR(11) NOT NULL
+                   , cDESCRICAO_OS     VARCHAR(500)
+                   , cFABRICANTE_VE_OS VARCHAR(100)
+                   , cMODELO_VE_OS     VARCHAR(100)
+                   , cPLACA_VE_OS      VARCHAR(10)
+                   , dDATA_OS          DATETIME NOT NULL
+                   , cUSUARIO_OS       VARCHAR(50) NOT NULL
+                   , dDATA_FIM_OS      DATETIME
+                   , cUSUARIO_FIM_OS   VARCHAR(50)
+                   , dDATA_CAN_OS      DATETIME
+                   , cUSUARIO_CAN_OS   VARCHAR(50)
+                   , FOREIGN KEY (cUSUARIO_OS)     REFERENCES TB_USUARIOS(cLOGIN_US)
+                   , FOREIGN KEY (cUSUARIO_FIM_OS) REFERENCES TB_USUARIOS(cLOGIN_US)
+                   , FOREIGN KEY (cUSUARIO_CAN_OS) REFERENCES TB_USUARIOS(cLOGIN_US)
+                   );
+
+CREATE TABLE TB_SERVICOS_PECAS ( iCODIGO_SP INTEGER PRIMARY KEY AUTOINCREMENT
+                               , cDESCRICAO_SP VARCHAR(200)
+				                       );
+
+CREATE TABLE TB_ITENS_OS ( iCODIGO_IOS     INTEGER PRIMARY KEY AUTOINCREMENT
+                         , iCOD_OS_IOS     INTEGER NOT NULL
+                         , iCOD_SP_IOS     INTEGER NOT NULL
+                         , iQUANTIDADE_IOS INTEGER NOT NULL
+                         , nVALOR_UNI_IOS  FLOAT NOT NULL
+                         , cUSUARIO_IOS    VARCHAR(50) NOT NULL
+                         , dDATA_IOS       DATETIME NOT NULL
+                         , FOREIGN KEY (iCOD_OS_IOS)  REFERENCES TB_OS(iCODIGO_OS)
+                         , FOREIGN KEY (cUSUARIO_IOS) REFERENCES TB_USUARIOS(cLOGIN_US)
+			                   , FOREIGN KEY (iCOD_SP_IOS)  REFERENCES TB_SERVICOS_PECAS(iCODIGO_SP)
+                         );
+
+INSERT INTO TB_USUARIOS ( cLOGIN_US
+                        , cSENHA_US
+                        , cNOME_US
+                        , cTIPO_US
+                        )
+VALUES ( 'ADMIN'
+       , 'admin'
+       , 'Administrador'
+       , 'A'
+       );

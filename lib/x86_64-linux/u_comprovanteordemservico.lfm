@@ -1,0 +1,36 @@
+object FormComprovanteOrdemServico: TFormComprovanteOrdemServico
+  Left = 479
+  Height = 324
+  Top = 129
+  Width = 488
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Comprovante de Ordem de Serviço'
+  OnClose = FormClose
+  OnShow = FormShow
+  Position = poMainFormCenter
+  LCLVersion = '2.0.2.0'
+  object DataSourceComprovanteOS: TDataSource
+    DataSet = DataModuleDB.SQLQueryComprovanteOS
+    left = 96
+    top = 24
+  end
+  object DataSourceItensComprovanteOS: TDataSource
+    DataSet = DataModuleDB.SQLQueryConsultaItensOS
+    left = 96
+    top = 80
+  end
+  object DataSourceDadosEmpresa: TDataSource
+    DataSet = DataModuleDB.SQLQueryCFGSistema
+    left = 96
+    top = 136
+  end
+  object frReportComprovanteOS: TfrReport
+    InitialZoom = pzDefault
+    Options = []
+    PreviewButtons = [pbZoom, pbLoad, pbSave, pbPrint, pbFind, pbHelp, pbExit]
+    DataType = dtDataSet
+    left = 368
+    top = 24
+  end
+end

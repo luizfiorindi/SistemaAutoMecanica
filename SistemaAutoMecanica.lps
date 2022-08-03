@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units Count="37">
+      <Unit0>
+        <Filename Value="SistemaAutoMecanica.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="16"/>
+        <UsageCount Value="200"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="u_principal.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormPrincipal"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="U_principal"/>
+        <CursorPos X="33" Y="17"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="u_datamoduledb.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DataModuleDB"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="u_DataModuleDB"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="145"/>
+        <CursorPos X="58" Y="150"/>
+        <UsageCount Value="200"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="u_login.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormLogin"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="31"/>
+        <CursorPos X="32" Y="63"/>
+        <UsageCount Value="204"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="u_cfgsistema.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormCGFSistema"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="174"/>
+        <CursorPos X="66" Y="205"/>
+        <UsageCount Value="202"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="u_usuario.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormUsuario"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="172"/>
+        <CursorPos X="91" Y="184"/>
+        <UsageCount Value="200"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="u_alterasenha.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormAlteraSenha"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="74"/>
+        <CursorPos X="40" Y="92"/>
+        <UsageCount Value="169"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="u_cliente.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormCliente"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="130"/>
+        <CursorPos X="3" Y="172"/>
+        <UsageCount Value="165"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="u_consultacliente.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormConsultaCliente"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="67"/>
+        <CursorPos Y="79"/>
+        <UsageCount Value="161"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="u_ordemservico.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormOrdemServico"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="383"/>
+        <CursorPos Y="469"/>
+        <UsageCount Value="159"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="u_consultaordemservico.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormConsultaOrdemServico"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="196"/>
+        <CursorPos X="139" Y="216"/>
+        <UsageCount Value="118"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="u_comprovanteordemservico.pas"/>
+        <ComponentName Value="FormComprovanteOrdemServico"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="34"/>
+        <CursorPos X="35" Y="25"/>
+        <UsageCount Value="66"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="u_usuarios.pas"/>
+        <ComponentName Value="FormUsuarios"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="u_usuario"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="2"/>
+        <UsageCount Value="4"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="..\ProjetoSistemadeVendas\udatamoduledb.pas"/>
+        <ComponentName Value="DataModuleDB"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="uDataModuleDB"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="344"/>
+        <CursorPos X="8" Y="376"/>
+        <UsageCount Value="1"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="..\ProjetoSistemadeVendas\uprincipal.pas"/>
+        <HasResources Value="True"/>
+        <UnitName Value="uPrincipal"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="99"/>
+        <CursorPos X="38" Y="9"/>
+        <UsageCount Value="5"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="u_cfgsistema.lfm"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="226"/>
+        <CursorPos X="30" Y="244"/>
+        <UsageCount Value="1"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="C:\lazarus\lcl\graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="861"/>
+        <CursorPos X="3" Y="848"/>
+        <UsageCount Value="3"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="C:\lazarus\lcl\lclmessageglue.pas"/>
+        <UnitName Value="LCLMessageGlue"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="87"/>
+        <CursorPos Y="105"/>
+        <UsageCount Value="7"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="C:\lazarus\lcl\include\control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2900"/>
+        <CursorPos Y="2913"/>
+        <UsageCount Value="9"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="C:\lazarus\lcl\include\buttoncontrol.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="8"/>
+        <CursorPos Y="22"/>
+        <UsageCount Value="1"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="C:\lazarus\lcl\include\buttons.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="156"/>
+        <CursorPos Y="170"/>
+        <UsageCount Value="1"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="C:\lazarus\lcl\include\bitbtn.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="55"/>
+        <CursorPos Y="68"/>
+        <UsageCount Value="1"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="C:\lazarus\lcl\include\wincontrol.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="5407"/>
+        <CursorPos Y="5420"/>
+        <UsageCount Value="1"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="..\ProjetoSistemadeVendas\ucadastrocliente.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="1"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="..\ProjetoSistemadeVendas\ucadastrocliente.pas"/>
+        <ComponentName Value="FormCadastroCliente"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="139"/>
+        <CursorPos X="2" Y="143"/>
+        <UsageCount Value="1"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="C:\lazarus\lcl\include\fpimagebitmap.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="128"/>
+        <CursorPos X="59" Y="142"/>
+        <UsageCount Value="3"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="C:\lazarus\lcl\dialogs.pp"/>
+        <UnitName Value="Dialogs"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="701"/>
+        <CursorPos X="11" Y="724"/>
+        <UsageCount Value="6"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="C:\lazarus\components\lazutils\uitypes.pas"/>
+        <UnitName Value="UITypes"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="28"/>
+        <CursorPos X="20" Y="18"/>
+        <UsageCount Value="5"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="C:\lazarus\lcl\controls.pp"/>
+        <UnitName Value="Controls"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="6"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="C:\lazarus\lcl\include\statuspanels.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="13"/>
+        <CursorPos Y="28"/>
+        <UsageCount Value="6"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="C:\lazarus\lcl\include\customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="945"/>
+        <CursorPos Y="959"/>
+        <UsageCount Value="6"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="..\ProjetoSistemadeVendas\uetiqueta.pas"/>
+        <ComponentName Value="FormEtiqueta"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="7"/>
+        <CursorPos X="44" Y="17"/>
+        <UsageCount Value="6"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="..\ProjetoSistemadeVendas\uetiqueta.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="6"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="C:\lazarus\components\lazreport\source\lr_class.pas"/>
+        <UnitName Value="LR_Class"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="11831"/>
+        <CursorPos Y="11845"/>
+        <UsageCount Value="6"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\rtl\objpas\sysutils\filutilh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="152"/>
+        <CursorPos X="10" Y="123"/>
+        <UsageCount Value="7"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\packages\paszlib\src\zipper.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="175"/>
+        <UsageCount Value="10"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="C:\lazarus\lcl\include\application.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1407"/>
+        <CursorPos Y="1418"/>
+        <UsageCount Value="10"/>
+      </Unit36>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="u_principal.pas"/>
+        <Caret Line="102" TopLine="95"/>
+      </Position1>
+      <Position2>
+        <Filename Value="u_principal.pas"/>
+        <Caret Line="103" TopLine="95"/>
+      </Position2>
+      <Position3>
+        <Filename Value="u_principal.pas"/>
+        <Caret Line="104" TopLine="95"/>
+      </Position3>
+      <Position4>
+        <Filename Value="u_principal.pas"/>
+        <Caret Line="105" TopLine="95"/>
+      </Position4>
+      <Position5>
+        <Filename Value="u_principal.pas"/>
+        <Caret Line="98" TopLine="93"/>
+      </Position5>
+      <Position6>
+        <Filename Value="u_principal.pas"/>
+        <Caret Line="100" TopLine="93"/>
+      </Position6>
+      <Position7>
+        <Filename Value="u_principal.pas"/>
+        <Caret Line="101" TopLine="93"/>
+      </Position7>
+      <Position8>
+        <Filename Value="u_principal.pas"/>
+        <Caret Line="103" TopLine="93"/>
+      </Position8>
+      <Position9>
+        <Filename Value="u_principal.pas"/>
+        <Caret Line="105" TopLine="93"/>
+      </Position9>
+      <Position10>
+        <Filename Value="u_principal.pas"/>
+        <Caret Line="107" Column="57" TopLine="91"/>
+      </Position10>
+      <Position11>
+        <Filename Value="u_principal.pas"/>
+        <Caret Line="98" TopLine="91"/>
+      </Position11>
+      <Position12>
+        <Filename Value="u_principal.pas"/>
+        <Caret Line="100" TopLine="91"/>
+      </Position12>
+      <Position13>
+        <Filename Value="u_principal.pas"/>
+        <Caret Line="101" TopLine="91"/>
+      </Position13>
+      <Position14>
+        <Filename Value="u_principal.pas"/>
+        <Caret Line="103" TopLine="91"/>
+      </Position14>
+      <Position15>
+        <Filename Value="u_principal.pas"/>
+        <Caret Line="109" TopLine="91"/>
+      </Position15>
+      <Position16>
+        <Filename Value="u_principal.pas"/>
+        <Caret Line="99" Column="73" TopLine="88"/>
+      </Position16>
+      <Position17>
+        <Filename Value="u_principal.pas"/>
+        <Caret Line="96" TopLine="88"/>
+      </Position17>
+      <Position18>
+        <Filename Value="u_principal.pas"/>
+        <Caret Line="98" TopLine="88"/>
+      </Position18>
+      <Position19>
+        <Filename Value="u_principal.pas"/>
+        <Caret Line="99" TopLine="88"/>
+      </Position19>
+      <Position20>
+        <Filename Value="u_principal.pas"/>
+        <Caret Line="101" TopLine="88"/>
+      </Position20>
+      <Position21>
+        <Filename Value="u_principal.pas"/>
+        <Caret Line="103" TopLine="88"/>
+      </Position21>
+      <Position22>
+        <Filename Value="u_principal.pas"/>
+        <Caret Line="109" Column="42" TopLine="88"/>
+      </Position22>
+      <Position23>
+        <Filename Value="u_principal.pas"/>
+        <Caret Line="96" TopLine="88"/>
+      </Position23>
+      <Position24>
+        <Filename Value="u_principal.pas"/>
+        <Caret Line="98" TopLine="88"/>
+      </Position24>
+      <Position25>
+        <Filename Value="u_principal.pas"/>
+        <Caret Line="99" TopLine="88"/>
+      </Position25>
+      <Position26>
+        <Filename Value="u_principal.pas"/>
+        <Caret Line="100" TopLine="88"/>
+      </Position26>
+      <Position27>
+        <Filename Value="u_principal.pas"/>
+        <Caret Line="101" TopLine="88"/>
+      </Position27>
+      <Position28>
+        <Filename Value="u_principal.pas"/>
+        <Caret Line="103" TopLine="88"/>
+      </Position28>
+      <Position29>
+        <Filename Value="u_principal.pas"/>
+        <Caret Line="109" TopLine="88"/>
+      </Position29>
+      <Position30>
+        <Filename Value="u_principal.pas"/>
+        <Caret Line="96" TopLine="32"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

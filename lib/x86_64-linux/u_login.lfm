@@ -1,0 +1,68 @@
+object FormLogin: TFormLogin
+  Left = 567
+  Height = 240
+  Top = 213
+  Width = 320
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Login'
+  ClientHeight = 240
+  ClientWidth = 320
+  OnClose = FormClose
+  OnShow = FormShow
+  Position = poMainFormCenter
+  LCLVersion = '2.0.2.0'
+  object ButtonLogar: TButton
+    Left = 127
+    Height = 25
+    Top = 152
+    Width = 75
+    Caption = 'Logar'
+    OnClick = ButtonLogarClick
+    TabOrder = 2
+  end
+  object EditLogin: TEdit
+    Left = 96
+    Height = 23
+    Top = 48
+    Width = 136
+    CharCase = ecUppercase
+    MaxLength = 50
+    TabOrder = 0
+  end
+  object EditSenha: TEdit
+    Left = 96
+    Height = 23
+    Top = 104
+    Width = 136
+    EchoMode = emPassword
+    MaxLength = 50
+    PasswordChar = '*'
+    TabOrder = 1
+  end
+  object Label1: TLabel
+    Left = 56
+    Height = 15
+    Top = 48
+    Width = 33
+    Caption = 'Login:'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 54
+    Height = 15
+    Top = 104
+    Width = 35
+    Caption = 'Senha:'
+    ParentColor = False
+  end
+  object ButtonAlterarSenha: TButton
+    Left = 106
+    Height = 25
+    Top = 200
+    Width = 115
+    Caption = 'Alterar Senha'
+    OnClick = ButtonAlterarSenhaClick
+    TabOrder = 3
+  end
+end
